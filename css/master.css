@@ -1,0 +1,151 @@
+header{
+  text-align: center;
+}
+h1{
+  font-family: 'Anton', sans-serif;
+}
+
+h3{
+  font-family: 'Dancing Script', cursive;
+}
+.projectlist-headings , .todolist-headings{
+  font-family: fantasy;
+  font-size:30px;
+
+}
+.main-container{
+  display: flex;
+  justify-content: space-around;
+}
+#add-project{
+  display: none;
+  position: absolute;
+  left:45vw;
+  top:45vh;
+  background-color: rgba(0,0,0,0.2);
+}
+
+.current{
+  background-color: #e7e7e7;
+
+}
+
+.top-bar{
+  display:flex;
+  justify-content: space-between;
+}
+
+.functions span{
+  margin:3px;
+}
+.project-list{
+  padding:5px 5px 5px 0;
+}
+.project-container{
+  margin:10px 10px 0 0;
+}
+.project-heading{
+  cursor: pointer;
+}
+.top-bar{
+  padding: 10px;
+  background-color: #006400;
+  color:white;
+  font-weight: bold;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.project-details{
+  padding: 10px;
+  background-color: #90EE90;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+}
+.col-4{
+  margin:10px;
+}
+.edit,.remove,.edit-task,.remove-task{
+  cursor: pointer;
+}
+.col-7{
+  margin:10px;
+}
+.all-projects{
+  border-right: 2px solid gray;
+}
+
+.active{
+  background-color: #721698;
+}
+i{
+  margin:0 2px;
+}
+
+.task-heading{
+  display: flex;
+  font-size: 30px;
+  font-family: 'Roboto Slab', serif;
+  justify-content: space-between;
+}
+#add-task-to-list{
+  cursor: pointer;
+}
+.high-priority{
+  background-color: #DC3545;
+  padding:10px;
+  color:white;
+  font-weight: bold;
+  font-size:16px;
+}
+.high-priority-b{
+  border: 1px solid #DC3545;
+}
+.medium-priority{
+  background-color: #ffC107;
+  padding: 10px;
+  color:white;
+  font-size:14px;
+}
+.medium-priority-b{
+  border: 1px solid #ffC107;
+}
+.low-priority{
+  background-color: rgb(10,150,233);
+  padding: 10px;
+  color:white;
+  font-size:12px;
+
+}
+.low-priority-b{
+  border: 1px solid rgb(10,150,233);
+}
+.task-description{
+  font-family: 'Comic Neue', cursive;
+}
+.done-task{
+  background-color: #cfcfcf;
+
+}
+.done-task-line{
+  text-decoration: line-through;
+}
+.done-task-line:hover{
+  text-decoration: line-through;
+}
+.fa{
+  cursor: pointer;
+}
+
+/*
+
+
+    font-family: 'Comic Neue', cursive;
+
+    font-family: 'Roboto Slab', serif;
+
+    font-family: 'Anton', sans-serif;
+
+    font-family: 'Dancing Script', cursive;
+
+ */
